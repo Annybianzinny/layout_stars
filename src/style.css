@@ -3,11 +3,6 @@ body {
   margin: 0;
 }
 
-.stars,
-.stars__star {
-  box-sizing: border-box;
-}
-
 .stars {
   display: flex;
 }
@@ -20,7 +15,6 @@ body {
   background-image: url('./images/star.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
 }
 
 .stars__star:last-child {
